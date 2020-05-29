@@ -1,0 +1,14 @@
+﻿{
+  "Version": "13.1.0",
+  "DestinationType": "ImageUploader",
+  "RequestMethod": "POST",
+  "RequestURL": "https://i.mathew.pl/upload",
+  "Parameters": {
+    "type": "image"
+  },
+  "Body": "MultipartFormData",
+  "FileFormName": "fileform",
+  "URL": "$json:url.image$",
+  "ThumbnailURL": "$json:url.thumbnail$",
+  "DeletionURL": "$json:url.delete$"
+}

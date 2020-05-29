@@ -1,0 +1,26 @@
+{
+  "name": "sharex-server",
+  "version": "1.0.0",
+  "description": "Sharex upload server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Maathias/sharex-server.git"
+  },
+  "author": "Mateusz Pstrucha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Maathias/sharex-server/issues"
+  },
+  "homepage": "https://github.com/Maathias/sharex-server#readme",
+  "dependencies": {
+    "formidable": "^1.2.2",
+    "jimp": "^0.10.3",
+    "mongoose": "^5.9.11"
+  }
+}

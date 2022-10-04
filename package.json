@@ -21,6 +21,6 @@
   "dependencies": {
     "formidable": "^1.2.2",
     "jimp": "^0.10.3",
-    "mongoose": "^5.9.11"
+    "mongoose": "^5.13.15"
   }
 }
